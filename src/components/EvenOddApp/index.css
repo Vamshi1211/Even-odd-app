@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.count {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+.count-even-or-odd {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+}
+.button {
+  background-color: #ffffff;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  align-self: center;
+}
+.paragraph {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
